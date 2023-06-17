@@ -1,0 +1,60 @@
+.bdy{
+    background-image: url("https://1.bp.blogspot.com/-tRiQcWkgAqc/X1IinuBaeNI/AAAAAAAAAFg/OnDdgnVKf-0Pq0wKYplMujvgZsWIrAi-wCLcBGAsYHQ/w781-h444/%25EB%25B0%2594%25EC%25B9%25B4%25EB%259D%25BC%25EC%2582%25AC%25EC%259D%25B4%25ED%258A%25B8%2B%252820%2529.jpg");
+    background-size: cover;
+    text-align: center;
+    /* padding-left: 700px; */
+    border: 6px solid black;
+}
+.navbar{
+    background-color: black;
+    border-radius: 10px;
+
+    /* padding: 10px; */
+    /* margin-bottom: 20px; */
+    
+   }
+  .navbar ul{
+    overflow: auto; 
+  } 
+  .navbar li{
+    float:left;
+    list-style: none;
+    margin: 25px 25px;
+  }
+  .navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+ }
+ .navbar li a:hover{
+    color: red;
+    cursor: pointer;
+    /* font-size: 26px; */
+ }
+a{
+    background-color: rgba(173 192 17 1);
+    /* margin-bottom: 600px; */
+    /* margin-top: 600px; */
+    font-size: 40px;
+    color: white;
+    font-weight: bolder;
+    /* padding-bottom: 20px; */
+}
+#wlc{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    /* margin-top: 100px; */
+    margin-bottom: 200px;
+    font-weight: bolder;
+    text-shadow: -5px -4px 5px black;
+
+}
+.play-btn{
+    background-color: black;
+    border-radius: 6px;
+}
+.play-btn:hover{
+    background-color: rgb(5, 69, 5);
+}
