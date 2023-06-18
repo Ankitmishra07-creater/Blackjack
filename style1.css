@@ -4,6 +4,7 @@
     text-align: center;
     /* padding-left: 700px; */
     border: 6px solid black;
+    padding-bottom: 200px;
 }
 .navbar{
     background-color: black;
@@ -47,6 +48,7 @@ a{
     text-align: center;
     /* margin-top: 100px; */
     margin-bottom: 200px;
+    margin-top: 50px;
     font-weight: bolder;
     text-shadow: -5px -4px 5px black;
 

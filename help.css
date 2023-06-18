@@ -6,6 +6,15 @@ h1{
     text-align: center;
     font-size: 30PX;
     text-decoration: none;
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-left: 650px;
+    margin-right: 650px;
+    border-right: 5px solid black;
+    border-left: 5px solid black;
+    margin-bottom: 20px;
 }
 body{
     font-size: 30px;
@@ -13,7 +22,7 @@ body{
 }
 .abt-txt{
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
 }
 .navbar{
     background-color: black;
@@ -41,4 +50,20 @@ body{
     color: red;
     cursor: pointer;
     /* font-size: 26px; */
+ }
+ p{
+   text-align: center;
+   /* padding-bottom: 30px; */
+ }
+ .ins-txt li{
+   padding-bottom: 20px;
+   
+   padding-left: 30px;
+   /* border: 5px solid red ; */
+ }
+ .container{
+  background-color: rgb(92, 135, 154);
+  margin-top: 10px;
+  border-radius: 9px;
+  border: 2px solid black;
  }

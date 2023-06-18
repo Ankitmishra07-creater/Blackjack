@@ -6,11 +6,17 @@
 
 </head>
 <body>
-    
+    <!-- <button onclick="play()">playmusic</button> -->
+     <audio id="myAudio"  autoplay>
+        <source src="Blank-Kytt-RSPN.mp3" type="audio/ogg">
+        <source src="Blank-Kytt-RSPN.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
     <h1>Blackjack</h1>
     <p id="blck-png"><img src="https://cdn.shopify.com/s/files/1/0014/1962/products/blackjackcasinocards_main_1024_1024x1024.png?v=1385634864" height="175px" length="175px"></p>
-    
+    <!-- <span id="where_to_insert"></span> -->
     <p id="message-el">Want to play a round?</p>
+    <p id="cngrts-el"></p>
     <p id="cards-el">Cards:</p>
     <p id="sum-el">Sum:</p>
     <button onclick="startGame()">START GAME</button>
